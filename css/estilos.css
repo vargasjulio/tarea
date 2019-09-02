@@ -1,0 +1,115 @@
+.padre{
+width: 80%;
+margin:0 auto;
+padding:1em;
+box-shadow: 0 0 0.5em rgba(0,0,0,0.5);
+background: black;
+}
+
+.hijo1 {
+background: gold;
+display: flex;
+height: 110px;
+justify-content: flex-end;
+padding: 1em;
+
+}
+
+.hijo1 div{
+background: silver;
+border:solid;
+height: 80px;
+margin-right: 2em;
+width: 80px;
+}
+
+.hijo2{
+background: blue;
+display: flex;
+height: 250px;
+padding: 1em;
+border:solid;
+}
+
+.hijo3{
+background: #0091C7;
+display: flex;
+height: 250px;
+padding: 1em;
+border:solid;
+justify-content: center;
+align-items: center;
+}
+
+.hijo3 div{
+background: yellow;
+border:solid;
+height: 80px;
+margin-right: 2em;
+width: 180px;
+}
+
+.hijo4{
+background: #006E39;
+display: flex;
+height: 200px;
+border:solid;
+justify-content:space-between;
+align-items: center;
+}
+
+.hijo4 div{
+background: #FFA7A7;
+border:solid;
+height: 80px;
+width: 160px;
+}
+
+.hijo5{
+background: #8A00FF;
+display: flex;
+height: 300px;
+border:solid;
+}
+
+.nieto6{
+background: #9600FF;
+border:solid;
+width:50%;
+display:flex;
+flex-direction:column;
+}
+
+.bis1{
+background: #AE00FF;
+border:solid;
+height:50%
+}
+
+.bis2{
+background: #AE00FF;
+border:solid;
+height:50%;
+display:flex;
+flex-direction:row;
+}
+
+.tata1{
+background: #AE00FF;
+border:solid;
+width:50%
+}
+
+.tata2{
+background: #AE00FF;
+border:solid;
+width:50%
+}
+
+.hijo6{
+background: #00005F;
+display: flex;
+height: 100px;
+padding: 1em;
+border:solid;
+}
